@@ -73,6 +73,7 @@ button,input,svg:hover{
 
 #input{
     background-color: white;
+    color: black;
 }
 @media(max-width:768px){
     
@@ -84,5 +85,6 @@ button,input,svg:hover{
     }
     #input{
         background-color: white;
+        color: black;
     }
 }
