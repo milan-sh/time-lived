@@ -65,11 +65,15 @@
     border: none;
     border-radius: 5px;
     font-size: 0.9rem;
+
 }
 button,input,svg:hover{
     cursor: pointer;
 }
 
+#input{
+    background-color: white;
+}
 @media(max-width:768px){
     
     .hide>h1{
@@ -77,5 +81,8 @@ button,input,svg:hover{
     }
     #remain{
         text-align: center;
+    }
+    #input{
+        background-color: white;
     }
 }
